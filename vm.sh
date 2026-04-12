@@ -196,8 +196,8 @@ create_new_vm() {
     done
 
     while true; do
-        read -p "$(print_status "INPUT" "Enter username (default: gibhq): ")" USERNAME
-        USERNAME="${USERNAME:-gibhq}"
+        read -p "$(print_status "INPUT" "Enter username (default: suto): ")" USERNAME
+        USERNAME="${USERNAME:-suto}"
         if validate_input "username" "$USERNAME"; then
             break
         fi
