@@ -55,6 +55,7 @@ finish() {
 }
 
 # Main
+sudo apt update
 installCRD
 installDesktopEnvironment
 installBrowser
