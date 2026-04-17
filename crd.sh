@@ -12,9 +12,9 @@ Pin=123456
 
 installCRD() {
     echo "Installing Remote Desktop..."
-    wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb > /dev/null 2>&1
-    sudo dpkg --install chrome-remote-desktop_current_amd64.deb > /dev/null 2>&1
-    sudo apt install --assume-yes --fix-broken > /dev/null 2>&1
+    wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
+    sudo dpkg --install chrome-remote-desktop_current_amd64.deb
+    sudo apt install --assume-yes --fix-broken
     echo "installation complete!"
 }
 
